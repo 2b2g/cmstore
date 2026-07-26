@@ -63,7 +63,7 @@
       "dependencies": [],
       "category": "consultas",
       "screenshots": [],
-      "release_notes": "Actualización arquitectónica: el módulo ahora gestiona su propio ciclo de vida de BD (activate crea tabla, deactivate libera recursos, uninstall elimina tabla). Corrección de autor a Zava.",
+      "release_notes": "Actualización arquitectónica: el módulo ahora gestiona su propio ciclo de vida de BD. Corrección de autor a Zava.",
       "license": "MIT",
       "translations": {
         "module.currency.name": { "es": "Divisas (USD/CUP)", "en": "Currencies (USD/CUP)" },
@@ -202,37 +202,4 @@
         "module.excel_to_dbf.col_dbf_name": { "es": "Nombre DBF", "en": "DBF Name" },
         "module.excel_to_dbf.col_type": { "es": "Tipo", "en": "Type" },
         "module.excel_to_dbf.col_width": { "es": "Ancho", "en": "Width" },
-        "module.excel_to_dbf.col_dec": { "es": "Dec.", "en": "Dec." },
-        "module.excel_to_dbf.type_char": { "es": "Carácter (C)", "en": "Character (C)" },
-        "module.excel_to_dbf.type_numeric": { "es": "Numérico (N)", "en": "Numeric (N)" },
-        "module.excel_to_dbf.type_date": { "es": "Fecha (D)", "en": "Date (D)" },
-        "module.excel_to_dbf.type_logical": { "es": "Lógico (L)", "en": "Logical (L)" },
-        "module.excel_to_dbf.success_message": { "es": "Archivo DBF generado correctamente.", "en": "DBF file generated successfully." },
-        "module.excel_to_dbf.generating": { "es": "Generando...", "en": "Generating..." },
-        "module.excel_to_dbf.generate_btn": { "es": "Generar DBF", "en": "Generate DBF" }
-      }
-    },
-    {
-      "id": "inventario",
-      "name": "Inventario",
-      "version": "1.0.0",
-      "author": "Empresa",
-      "description": "Gestión y control de inventario empresarial.",
-      "minCoreVersion": "1.0.0",
-      "icon": "Package",
-      "hasFrontend": false,
-      "download_url": "https://github.com/2b2g/cmstore/releases/download/inventario-v1.0.0/inventario.zip",
-      "download_size": 1135,
-      "checksum_sha256": "a6af1fe8693eb6bcf8c83b831f9ff31bc91d1b4f30663d4a4c5f9719715d4348",
-      "dependencies": [],
-      "category": "utilidades",
-      "screenshots": [],
-      "release_notes": "Versión inicial",
-      "license": "MIT",
-      "translations": {
-        "module.inventario.name": { "es": "Inventario", "en": "Inventory" },
-        "module.inventario.desc": { "es": "Gestión y control de inventario empresarial.", "en": "Enterprise inventory management and control." }
-      }
-    }
-  ]
-}
+        "module.excel_to_dbf.col_dec": { "es": "Dec.\", \"en\": \"Dec.\" },\n        \"module.excel_to_dbf.type_char\": { \"es\": \"Carácter (C)\", \"en\": \"Character (C)\" },\n        \"module.excel_to_dbf.type_numeric\": { \"es\": \"Numérico (N)\", \"en\": \"Numeric (N)\" },\n        \"module.excel_to_dbf.type_date\": { \"es\": \"Fecha (D)\", \"en\": \"Date (D)\" },\n        \"module.excel_to_dbf.type_logical\": { \"es\": \"Lógico (L)\", \"en\": \"Logical (L)\" },\n        \"module.excel_to_dbf.success_message\": { \"es\": \"Archivo DBF generado correctamente.\", \"en\": \"DBF file generated successfully.\" },\n        \"module.excel_to_dbf.generating\": { \"es\": \"Generando...\", \"en\": \"Generating...\" },\n        \"module.excel_to_dbf.generate_btn\": { \"es\": \"Generar DBF\", \"en\": \"Generate DBF\" }\n      }\n    },\n    {\n      \"id\": \"inventario\",\n      \"name\": \"Inventario\",\n      \"version\": \"1.0.0\",\n      \"author\": \"Empresa\",\n      \"description\": \"Gestión y control de inventario empresarial.\",\n      \"minCoreVersion\": \"1.0.0\",\n      \"icon\": \"Package\",\n      \"hasFrontend\": false,\n      \"download_url\": \"https://github.com/2b2g/cmstore/releases/download/inventario-v1.0.0/inventario.zip\",\n      \"download_size\": 1135,\n      \"checksum_sha256\": \"a6af1fe8693eb6bcf8c83b831f9ff31bc91d1b4f30663d4a4c5f9719715d4348\",\n      \"dependencies\": [],\n      \"category\": \"utilidades\",\n      \"screenshots\": [],\n      \"release_notes\": \"Versión inicial\",\n      \"license\": \"MIT\",\n      \"translations\": {\n        \"module.inventario.name\": { \"es\": \"Inventario\", \"en\": \"Inventory\" },\n        \"module.inventario.desc\": { \"es\": \"Gestión y control de inventario empresarial.\", \"en\": \"Enterprise inventory management and control.\" }\n      }\n    },\n    {\n      \"id\": \"profit-lab\",\n      \"name\": \"ProfitLab\",\n      \"version\": \"2.0.0\",\n      \"author\": \"Zava\",\n      \"description\": \"Sistema de costeo por receta: administra ingredientes, compone productos y analiza la rentabilidad de cada uno.\",\n      \"minCoreVersion\": \"1.0.0\",\n      \"icon\": \"TrendingUp\",\n      \"hasFrontend\": true,\n      \"download_url\": \"https://github.com/2b2g/cmstore/releases/download/profit-lab-v2.0.0/profit-lab.zip\",\n      \"download_size\": 476604,\n      \"checksum_sha256\": \"B5FB433B42DD484FE057654379EAB5B6D245287AAF40B68038735421C3777016\",\n      \"dependencies\": [],\n      \"category\": \"analisis\",\n      \"screenshots\": [],\n      \"release_notes\": \"Sistema de costeo por receta con ingredientes categorizados, análisis financiero completo y gráficos Recharts. Dropdowns con Radix UI (estilo oscuro opaco). Ciclo de vida de BD correcto (activate/deactivate/uninstall).\",\n      \"license\": \"MIT\",\n      \"translations\": {\n        \"module.profit_lab.name\": { \"es\": \"ProfitLab\", \"en\": \"ProfitLab\" },\n        \"module.profit_lab.desc\": { \"es\": \"Sistema de costeo por receta: administra ingredientes, compone productos y analiza la rentabilidad.\", \"en\": \"Recipe costing system: manage ingredients, compose products, and analyze profitability.\" }\n      }\n    }\n  ]\n}
